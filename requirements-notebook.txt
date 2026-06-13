@@ -1,0 +1,11 @@
+# Доп. зависимости для локального запуска ноутбука и Telegram-бота
+# (ставятся в глобальное окружение / conda). Веб-часть — из requirements.txt.
+
+jupyterlab
+notebook
+nbformat
+nbconvert
+
+# Telegram-бот (aiogram 3.4.x работает с pydantic 2.4–2.5)
+aiogram>=3.4,<3.5
+pydantic>=2.4.1,<2.6

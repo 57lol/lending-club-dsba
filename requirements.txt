@@ -1,0 +1,13 @@
+# Зависимости Streamlit-приложения.
+# Этот файл автоматически читает Streamlit Community Cloud при деплое,
+# а локально из него ставится виртуальное окружение .venv (Streamlit + FastAPI).
+
+streamlit>=1.40
+fastapi>=0.110
+uvicorn[standard]>=0.27
+requests
+pandas>=2.2
+numpy>=1.26,<2.2
+matplotlib>=3.8
+seaborn==0.13.2          # 0.14+ ругается на palette без hue — фиксируем рабочую версию
+scipy>=1.11
